@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+}
+
+.main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: min-content;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 25%;
+}
+
+.sticky-el {
+	background-color: slategray;
+	height: 200px;
+	/*max-height: 400px;*/
+	/*align-self: center;*/
+}
+
+.info {
+	padding: 50px 0px;
+}
+
+.info-text {
+	font-size: 3em;
+	padding-top: 50%;
+	padding-bottom: 50%;
+}
