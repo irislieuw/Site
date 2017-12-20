@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta content="text/html" charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="geo-map/geo-map-style.css">
@@ -24,16 +25,16 @@
 			<a href="#top"><img id="logo-img" src="images/logo.png"></a>
 		</div>
 
+		<!-- Empty div to keep space for headers -->
 		<div></div>
-
-		<div class="nav hidden" id="nav-menu">
-			<a href="#about">About</a>
-			<a href="#contact">Contact</a>
-		</div>
 
 		<div class="nav" id="menu">
 			<div>Menu</div>
 		</div>
+	</div>
+	<div class="nav hidden" id="nav-menu">
+		<div><a href="#about">About</a></div>
+		<div><a href="#contact">Contact</a></div>
 	</div>
 	<div class="main">
 		<div class="background" id="intro"></div>
@@ -68,13 +69,13 @@
 				<p>This is a website I built for myself during my free time outside work - mostly as a way to learn some web design and mess around with techniques I'm curious about. I've always been interested in "scrollytelling", and as such, my site incorporates a lot of scrolling events and the like. I used a combination of jQuery, Waypoints.js, D3.js, CSS Grids and CSS Sticky Positioning to build this site.</p>
 				<p>I didn't want my "About Me" to be an endless rant about my entire life story displayed in a wall of text, so I built a little visual aid...</p>
 				<h3>Scroll down and check it out 😊</h3>
-				<!-- <div class="arrow enter bounce"><div class="downarrow"></div></div> -->
 			</div>
 
 			<!-- Waypoints & Sticky Positioning -->
 			<div class="sticky-content">
 				<div class="sticky-graph" id="aboutme-geo-map"></div>
 				<div class="graph-info">
+					<div class="padding"></div>
 					<div class="info-text" id="map-loc--1">
 						I've lived in the United States all my life.
 					</div>
@@ -91,6 +92,7 @@
 					<div class="info-text" id="map-loc-2">
 						I moved to San Francisco soon after graduating from Scripps and began my first job at SOASTA working as a Data Scientist. A few years after I joined the company, Akamai acquired SOASTA. I still live and work in San Francisco now, and couldn't love it more!
 					</div>
+					<div class="padding"></div>
 				</div>
 			</div>
 
@@ -102,24 +104,27 @@
 					These are some photos taken over the years of my travels and culinary experiments.
 					</div>
 				</div>
-				<!-- <div class="sticky-graph" id="travel-geo-map">placeholder</div> -->
-				<!-- <div class="graph-info"> -->
-					<div>
-						<img class="travel-images" src="images/travels/DSC07348.JPG">
-						<img class="travel-images" src="images/travels/DSC08939.JPG">
-						<img class="travel-images" src="images/travels/IMG_0043.jpg">
-						<!-- <img class="travel-images" src="images/travels/IMG_0086.jpg"> -->
-						<!-- <img class="travel-images" src="images/travels/IMG_0206.jpg"> -->
-						<img class="travel-images" src="images/travels/IMG_6161.jpg">
-						<img class="travel-images" src="images/travels/IMG_6635.jpg">
-						<!-- <img class="travel-images" src="images/travels/IMG_6640.jpg"> -->
-						<img class="travel-images" src="images/travels/IMG_6835.jpg">
-						<img class="travel-images" src="images/travels/IMG_7573.JPG">
-						<img class="travel-images" src="images/travels/IMG_7581.jpg">
-						<!-- <img class="travel-images" src="images/travels/IMG_7624.jpg"> -->
-						<img class="travel-images" src="images/travels/IMG_8236.JPG">
-					</div>
-				<!-- </div> -->
+				<div>
+					<div class="padding"></div>
+					<img class="travel-images" src="images/travels/DSC07348.JPG">
+					<img class="travel-images" src="images/travels/DSC08939.JPG">
+					<img class="travel-images" src="images/travels/IMG_0043.jpg">
+					<!-- <img class="travel-images" src="images/travels/IMG_0086.jpg"> -->
+					<!-- <img class="travel-images" src="images/travels/IMG_0206.jpg"> -->
+					<img class="travel-images" src="images/travels/IMG_6161.jpg">
+					<img class="travel-images" src="images/travels/IMG_6635.jpg">
+					<!-- <img class="travel-images" src="images/travels/IMG_6640.jpg"> -->
+					<img class="travel-images" src="images/travels/IMG_6835.jpg">
+					<img class="travel-images" src="images/travels/IMG_7573.JPG">
+					<img class="travel-images" src="images/travels/IMG_7581.jpg">
+					<!-- <img class="travel-images" src="images/travels/IMG_7624.jpg"> -->
+					<img class="travel-images" src="images/travels/IMG_8236.JPG">
+					<img class="travel-images" src="images/foods/IMG_5880.jpg">
+					<img class="travel-images" src="images/foods/IMG_7887.jpg">
+					<img class="travel-images" src="images/foods/IMG_3076.JPG">
+					<img class="travel-images" src="images/foods/IMG_8287.jpg">
+					<div class="padding"></div>
+				</div>
 			</div>
 		</div>
 
